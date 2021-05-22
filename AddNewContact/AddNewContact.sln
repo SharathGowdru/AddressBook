@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactCreation", "ContactCreation\ContactCreation.csproj", "{D2762E21-23A8-420B-AA07-FF49F682425D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddNewContact", "AddNewContact\AddNewContact.csproj", "{CD431073-CD28-4233-AC21-834B4EAD54D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D2762E21-23A8-420B-AA07-FF49F682425D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2762E21-23A8-420B-AA07-FF49F682425D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2762E21-23A8-420B-AA07-FF49F682425D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2762E21-23A8-420B-AA07-FF49F682425D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD431073-CD28-4233-AC21-834B4EAD54D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD431073-CD28-4233-AC21-834B4EAD54D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD431073-CD28-4233-AC21-834B4EAD54D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD431073-CD28-4233-AC21-834B4EAD54D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AE7EF869-737C-46E0-AFB1-05FF205FFB8D}
+		SolutionGuid = {6C18A14E-20B5-4DC2-B89F-B8D912484D95}
 	EndGlobalSection
 EndGlobal
