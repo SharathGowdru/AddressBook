@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeletingContact", "DeletingContact\DeletingContact.csproj", "{A433BA7A-C5C1-4BFC-988A-197C8B0CC28F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddressBook1", "AddressBook1\AddressBook1.csproj", "{E2F4B3DF-6E3E-4124-9524-29EEBD8B4F99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A433BA7A-C5C1-4BFC-988A-197C8B0CC28F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A433BA7A-C5C1-4BFC-988A-197C8B0CC28F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A433BA7A-C5C1-4BFC-988A-197C8B0CC28F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A433BA7A-C5C1-4BFC-988A-197C8B0CC28F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F4B3DF-6E3E-4124-9524-29EEBD8B4F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F4B3DF-6E3E-4124-9524-29EEBD8B4F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F4B3DF-6E3E-4124-9524-29EEBD8B4F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F4B3DF-6E3E-4124-9524-29EEBD8B4F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {589EFF86-947C-448D-9465-08DCC25393F5}
+		SolutionGuid = {166B3070-BB67-4D0B-AA2E-06E929AFADD1}
 	EndGlobalSection
 EndGlobal

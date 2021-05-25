@@ -109,7 +109,6 @@ namespace AddressBook
                     {
                         list.Remove(contact);
                         Console.WriteLine("deleted successfully");
-                        break;
                     }
 
                 }
@@ -130,7 +129,5 @@ namespace AddressBook
         {
             return dictionary;
         }
-
-
     }
 }
