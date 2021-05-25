@@ -26,8 +26,6 @@ namespace AddressBook
                     addressBook.AddAddressBook(bookName);
                     break;
             }
-
-
             do
             {
                 Console.WriteLine($"you are working on {bookName} addressbook ");
@@ -45,6 +43,8 @@ namespace AddressBook
                     case 1:
                         Console.WriteLine("Enter First Name :");
                         string firstName = Console.ReadLine();
+                        if (addressBook.CheckFor_Duplicate(firstName) == "true")
+                            break;
                         Console.WriteLine("Enter Last Name :");
                         string lastName = Console.ReadLine();
                         Console.WriteLine("Enter Address :");
@@ -111,7 +111,7 @@ namespace AddressBook
                         Console.WriteLine("wrong input");
                         break;
                 }
-                Console.WriteLine("Do you want to continue?  press 1 if yes,press 0 for Exit");
+                Console.WriteLine("Do you want to continue to The Main Menu?  press 1 if yes,press 0 for Exit");
                 option = Convert.ToInt32(Console.ReadLine());
             }
             while (option != 0);

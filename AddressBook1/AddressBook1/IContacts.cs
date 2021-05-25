@@ -10,5 +10,6 @@ namespace AddressBook
         public void EditContact(string name);
         public void DeleteContact(string deletename);
         public void AddAddressBook(string bookName);
+        public string CheckFor_Duplicate(string name);
     }
 }

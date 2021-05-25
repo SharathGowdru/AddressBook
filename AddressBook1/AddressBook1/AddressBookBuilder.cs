@@ -7,8 +7,10 @@ namespace AddressBook
 {
     class AddressBookBuider : IContacts
     {
+
         private LinkedList<Contacts> list = new LinkedList<Contacts>();
         private Dictionary<string, AddressBookBuider> dictionary = new Dictionary<string, AddressBookBuider>();
+
         public void AddContact(string firstName, string lastName, string address, string city, string state, string email, int zip, long phoneNumber)
         {
             Contacts contact = new Contacts();
@@ -100,7 +102,6 @@ namespace AddressBook
         public void DeleteContact(string deletename)
         {
 
-
             if (list.Count > 0)
             {
                 foreach (var contact in list)
@@ -109,6 +110,7 @@ namespace AddressBook
                     {
                         list.Remove(contact);
                         Console.WriteLine("deleted successfully");
+                        break;
                     }
 
                 }
@@ -128,6 +130,20 @@ namespace AddressBook
         public Dictionary<string, AddressBookBuider> GetAddressBook()
         {
             return dictionary;
+        }
+        public string CheckFor_Duplicate(string name)
+        {
+
+            foreach (var contact in list)
+            {
+                if (list.Any(e => e.FirstName == name))
+                {
+
+                    Console.WriteLine("Sorry! Duplicate entry not allowed.");
+                    return "true";
+                }
+            }
+            return "flag";
         }
     }
 }
